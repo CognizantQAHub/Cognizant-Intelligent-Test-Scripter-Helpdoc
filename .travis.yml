@@ -2,7 +2,7 @@ language: python
 before_install:
   - pip install mkdocs
   - pip install mkdocs-material
-script: mkdocs build --verbose --clean --strict
+script: mkdocs build --verbose --clean
 deploy:
   provider: pages
   skip_cleanup: true
