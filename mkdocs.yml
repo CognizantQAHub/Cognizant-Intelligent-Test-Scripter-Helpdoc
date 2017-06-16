@@ -1,0 +1,45 @@
+site_name: 'Cognizant Intelligent Test Scripter'
+site_description: 'Documentation for Cognizant Intelligent Test Scripter'
+site_author: 'Cognizant Intelligent Test Scripter Team'
+site_url: 'https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter'
+site_favicon: 'favicon.ico'
+
+repo_name: 'Cognizant-Intelligent-Test-Scripter-Helpdoc'
+repo_url: https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc
+
+pages:
+- Home: index.md
+- Actions: 
+    - Web: actions/webactions.md
+    
+- Usage: 
+    - Engine: faq/engine.md
+    - Custom Methods: faq/customfunction.md   
+    - Addon Usage: faq/addon.md
+        
+- Shortcuts: shortcuts.md
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: '#'
+      
+# Options
+extra:
+  logo: 'logo.svg'
+  palette:
+    primary: 'teal'
+    accent: 'light blue'
+
+use_directory_urls: false
+
+theme: 'material'
+extra_css:
+  - 'fix/fix.css'
+
+copyright: Copyright &copy; 2014 - 2017 . Maintained by the <a href="/about/release-notes/#maintenance-team">Cognizant Intelligent Test Scripter Team</a>.
+
+
+
+
