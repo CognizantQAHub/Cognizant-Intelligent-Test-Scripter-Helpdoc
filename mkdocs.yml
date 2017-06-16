@@ -4,8 +4,8 @@ site_author: 'Cognizant Intelligent Test Scripter Team'
 site_url: 'https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter'
 site_favicon: 'favicon.ico'
 
-repo_name: 'Cognizant-Intelligent-Test-Scripter-Helpdoc'
-repo_url: https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc
+repo_name: 'CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc'
+repo_url: 'https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc'
 
 pages:
 - Home: index.md
@@ -31,6 +31,11 @@ extra:
   palette:
     primary: 'teal'
     accent: 'light blue'
+
+# Google Analytics
+google_analytics:
+  - 'UA-101145118-1'
+  - 'auto'
 
 use_directory_urls: false
 
