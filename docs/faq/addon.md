@@ -1,6 +1,6 @@
-# **Troubleshooting**
+# Addon Usage
 
-### ** Error in Connection **
+### Error in Connection
 
 
  Follow the below steps for such scenario:

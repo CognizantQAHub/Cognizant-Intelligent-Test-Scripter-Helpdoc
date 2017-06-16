@@ -23,7 +23,7 @@
 
 - Execution in cloud platforms like [SauceLabs](https://saucelabs.com/), [BrowserStack](https://www.browserstack.com/), [Perfecto](https://www.perfectomobile.com/)
 
-- Layout testing using [Galen framework](http://galenframework.com/)
+- **Layout testing** using [Galen framework](http://galenframework.com/)
 
 - Reusable / iteration / browser level HTML(json) report with **Searching, Sorting, Grouping, Themes, Templates, Galen Image comparison** features
 
@@ -31,15 +31,15 @@
 
 - **Selenium grid** support and  **GridNode UI** for creating grid clients
 
-- Appium Integration for Mobile web Automation.
+- [Appium](http://appium.io/) Integration for Mobile web Automation
 
 - Object Spy For MobileNative Apps[IOS and Android]  
 
-- Test Management module(QC , JIRA-Zephyr , TFS, Zephyr ).
+- Test Management module(QC , JIRA-Zephyr , TFS)
 
 - Email Reporting
 
-- Execute failed testcases in a test set automatically after a run.
+- Execute failed testcases in a test set automatically after a run
 
 - Custom methods,externalize the custom actions/methods as separate project
 
