@@ -23,6 +23,8 @@ And to install [Material Theme](http://squidfunk.github.io/mkdocs-material/)
 
 ### Contribution
 
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting your pull requests.
+
  * Before doing a Pull Request, please check if the feature you want to document is already present in the existing help content
 
  * In case of typos and grammatical errors, you can do a Pull Request right away. 
@@ -33,6 +35,20 @@ And to install [Material Theme](http://squidfunk.github.io/mkdocs-material/)
 Clone the repo and run the command `mkdocs serve` in the cloned directory.
 
 The help will be up and running in [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+## Code of Conduct
+
+To provide clarity on what is expected of our members, Cognizant Intelligent Test Scripter has adopted the code of conduct defined by the Contributor Covenant. This document is used across many open source communities and we think it articulates our values well. For more, see the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Contact
+
+If you have any queries on Cognizant Intelligent Test Scripter, please post your questions on [Cognizant ITS Google Group](https://groups.google.com/forum/#!forum/cognizant-intelligent-test-scripter).
+
+To ask specific questions on project development, to discuss future improvements or for any other technical detail, please join the [Cognizant ITS chat on Gitter](https://gitter.im/Cognizant-Intelligent-Test-Scripter).
+
+## License
+
+Cognizant Intelligent Test Scripter is licensed under [Apache License, Version 2.0](LICENSE)
 
 
 
