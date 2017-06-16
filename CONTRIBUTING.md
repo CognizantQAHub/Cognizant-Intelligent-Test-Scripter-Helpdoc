@@ -20,11 +20,11 @@ When you open your pull request we ask that you indicate that you've signed the 
 
 ### Contributing
 
- * Before doing a Pull Request, please check if the feature you want to document is already present in the existing help content
+ * Before doing a Pull Request, please check if the feature you want to document is already present in the existing help content.
 
  * In case of typos and grammatical errors, you can do a Pull Request right away. 
 
- * Create an github issue saying that you are going to work on the particular part to avoid multiple people working on the same content
+ * Create an github issue saying that you are going to work on the particular part to avoid multiple people working on the same content.
 
 
 ### Submiting Changes
