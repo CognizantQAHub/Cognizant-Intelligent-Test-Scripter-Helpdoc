@@ -47,7 +47,7 @@
 
 - Utility(Feature Editor) to manage BDD features, support Feature file creation, import, export feature files
 
-- **WebPage performance metrics** - Page and Resource timings report , Har Compare and  Har Compare report ,CLI to get performance result/report for an execution
+- **WebPage performance metrics** - Page and Resource timings report, Har Compare and  Har Compare report ,CLI to get performance result/report for an execution
 
 - Angular support using [ng-webdriver(protractor)](https://github.com/paul-hammant/ngWebDriver)
 
