@@ -37,7 +37,7 @@
 
 - Test Management module(QC , JIRA-Zephyr , TFS)
 
-- Email Reporting
+- Send Reports in mail after Execution
 
 - Execute failed testcases in a test set automatically after a run
 
