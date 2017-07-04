@@ -23,7 +23,9 @@
 
 - Execution in cloud platforms like [SauceLabs](https://saucelabs.com/), [BrowserStack](https://www.browserstack.com/), [Perfecto](https://www.perfectomobile.com/)
 
-- **Layout testing** using [Galen framework](http://galenframework.com/)
+- **Layout Testing** using [Galen framework](http://galenframework.com/)
+
+- **Accessibility Testing** using [aXe](https://www.deque.com/products/axe-core#WhatisaXe)
 
 - Reusable / iteration / browser level HTML(json) report with **Searching, Sorting, Grouping, Themes, Templates, Galen Image comparison** features
 
@@ -53,7 +55,7 @@
 
 ## Download
 
-You can download the Latest version of Cognizant Intelligent Test Scripter [from here](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/releases).
+You can download the Latest version of Cognizant Intelligent Test Scripter [from here](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter#download).
 
 !!! note
     Cognizant Intelligent Test Scripter is distributed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the sources are available on [GitHub](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter).
