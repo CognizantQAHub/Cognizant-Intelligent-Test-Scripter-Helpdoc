@@ -55,7 +55,7 @@
 
 ## Download
 
-You can download the Latest version of Cognizant Intelligent Test Scripter [from here](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter#download).
+You can download the Latest version of Cognizant Intelligent Test Scripter [from the Releases](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/releases/latest).  After extracting the zip, follow the steps from [Installation.md](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/blob/master/Resources/Installation.md)
 
 !!! note
     Cognizant Intelligent Test Scripter is distributed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the sources are available on [GitHub](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter).
@@ -88,6 +88,12 @@ You can download the Latest version of Cognizant Intelligent Test Scripter [from
 
 Selenium supported browsers are covered by default. For more information, [refer the link](http://docs.seleniumhq.org/about/platforms.jsp#browsers).
 
+
+## Contact
+
+If you have any queries on Cognizant Intelligent Test Scripter, please post your questions on [Cognizant ITS Google Group](https://groups.google.com/forum/#!forum/cognizant-intelligent-test-scripter).
+
+To ask specific questions on project development, to discuss future improvements or for any other technical detail, please join the [Cognizant ITS chat on Gitter](https://gitter.im/Cognizant-Intelligent-Test-Scripter).
 
 
 
