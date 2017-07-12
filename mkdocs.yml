@@ -8,8 +8,6 @@ repo_name: 'CITS'
 repo_url: 'https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter'
 edit_uri: ../Cognizant-Intelligent-Test-Scripter-Helpdoc/edit/master/docs
 
-edit_uri: edit/master/docs
-
 pages:
 - Home: index.md
 - Actions: 
