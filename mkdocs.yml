@@ -4,8 +4,10 @@ site_author: 'Cognizant Intelligent Test Scripter Team'
 site_url: 'https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc'
 site_favicon: 'favicon.ico'
 
-repo_name: 'CITS-Helpdoc'
-repo_url: 'https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc'
+repo_name: 'CITS'
+repo_url: 'https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter'
+edit_uri: '../Cognizant-Intelligent-Test-Scripter-Helpdoc/edit/master/docs'
+
 edit_uri: edit/master/docs
 
 pages:
