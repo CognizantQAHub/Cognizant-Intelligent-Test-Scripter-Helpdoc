@@ -5,7 +5,7 @@
 ### Set
 
 
-**Description**: This function is used to enter data in an object.
+**Description**: This function is used to enter data in an object
 
 **Input Format** : @Expected Text
 
