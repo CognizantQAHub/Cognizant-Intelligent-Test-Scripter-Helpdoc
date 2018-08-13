@@ -76,7 +76,7 @@ You can download the Latest version of Cognizant Intelligent Test Scripter [from
  
 #### Software Requirements
 
- * Latest Java 1.8 or higher
+ * Latest Java 1.8
  * IDE supporting Java Development (Eclipse, Netbeans, etc.)
  
 #### Devices(For mobile execution)
