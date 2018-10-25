@@ -3,7 +3,7 @@
 
 <br>
 
-> **Cognizant Intelligent Test Scripter** is an open-source script-less test automation solution that provides a unified interface for all the **day-to-day** test automation activities such as test design, test development, test execution, reporting and maintenance.
+> **Cognizant Intelligent Test Scripter** is an open-source script-less test automation solution that provides a unified interface for all the **day-to-day** test automation activities such as test design, test development, test execution, reporting and maintenance. 
 
 <br>
 
