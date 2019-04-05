@@ -1,64 +1,85 @@
-## CITS FAQ
+### CITS FAQ
 
-1)	Is CITS compatible with latest Chrome browser versions?
+	**Is CITS compatible with latest Chrome browser versions?**
 
-Please update the chrome driver version, to the most compatible one for your specific chrome browser version.
-[http://chromedriver.chromium.org/downloads](http://chromedriver.chromium.org/downloads)
+ Please update the chrome driver version, to the most compatible one for your specific chrome browser version.
+ [http://chromedriver.chromium.org/downloads](http://chromedriver.chromium.org/downloads)
 
-This can be done by replacing the compatible driver in "CITS installation location/lib/Drivers".
+ This can be done by replacing the compatible driver in "CITS installation location/lib/Drivers".
 
+<br>
 
-2)	Can CITS be integrated with Jenkins?
+ **Can CITS be integrated with Jenkins?**
 
 CITS integration with CI/CD tools is feasible through command line argument support. Navigate to the CITS IDE,right click on the test case or test set and choose the option "Get CmdLine Syntax”. This command can be executed from any batch or shell console which makes the integration possible. In order to integrate with Jenkins, follow the steps below,
 
-- Create a Jenkins job and place all CITS  files in the Jenkins jobs workspace. 
-- Further, in the “build” tab click on “execute windows batch command” or “execute shell”
-- Place the command to call the CITS Run.bat file in the batch console.
-- This job can further be configured for a scheduled execution or triggered based on a commit in the central repository
+  - Create a Jenkins job and place all CITS  files in the Jenkins jobs workspace. 
+  - Further, in the “build” tab click on “execute windows batch command” or “execute shell”
+  - Place the command to call the CITS Run.bat file in the batch console.
+  - This job can further be configured for a scheduled execution or triggered based on a commit in the central repository
 
+<br>
 
-3)	Do I need to set JDK path while trying to inject scripts?
+**Do I need to set JDK path while trying to inject scripts?**
 
 Inject script requires JDK to compile your .java files to .class files for execution. If JDK path is not set in the Run.bat file or system Path variable or in **JAVA_HOME** a prompt “Select JDK bin path” is displayed in the CITS IDE.
 
 
-4)	Where do I get the log files in case of a test execution failure?
+<br>
+
+**Where do I get the log files in case of a test execution failure?**
 
 The console log of execution and other HTML reports is available in the CITS “**Project location/Results folder**”. To get the project location, right click on the project from the Test design panel and choose "Details" from the context menu. The log file for CITS IDE, is available in CITS installation location as log.txt.
 
-5)	Does CITS support API Automation?
+
+<br>
+
+**Does CITS support API Automation?**
 
 CITS is predominantly for functional testing of web applications leveraging Selenium WebDriver. To achieve API automation users can write custom methods in CITS. One such a way is to leverage the command line execution support offered by SOAPUI. The test cases are to be created and saved in SOAPUI, however the execution can be done via SOAPUI command line support through custom methods in CITS.
 
-6)	Which CITS action can be used to assert element’s attribute values from the web application under test?
+
+<br>
+
+**Which CITS action can be used to assert element’s attribute values from the web application under test?**
 
 The CITS action "assertElementAttrEquals" can be used. Similar actions are available here,
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions.html#assertelementattrequals](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions.html#assertelementattrequals)
 
-7)	How to use the reusable components created in CITS?
+
+<br>
+
+**How to use the reusable components created in CITS?**
 
 Please use the keyword "**Execute**" under ObjectName column and double click on the actions column to choose the reusable component from the auto suggest. The above action can also be performed by dragging the reusable component in to the test case workspace, in order to add a step to call the respective reusable component in the test case.
 
-8)	Does CITS generate java code?
+
+<br>
+
+**Does CITS generate java code?**
 
 CITS projects are stored as flat files and all the actions called in your script are already coded in the engine project. There is no dynamic code generation. Please right click on your project in the design panel (under test plan) and choose “Details” from the context menu, to open the project location and the flat files created under a project. 
 
 
+<br>
 
-9)	 How to introduce your project specific customized actions in CITS?
+**How to introduce your project specific customized actions in CITS?**
+
 Navigate to “Automation> Create CM project” from CITS IDE and create a custom method project which can be imported in Eclipse IDE. Write your custom methods and build a standalone jar of this source code in to “lib/commands”. Please refer here for more information,
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/customfunction.html](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/customfunction.html)
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/engine.html](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/engine.html)
 
+<br>
 
-10)	Does CITS support script execution in mobile safari browser?
+**Does CITS support script execution in mobile safari browser?**
 
 CITS supports mobile automation through Appium and hence script execution in mobile Safari is supported. However, the pre requites for mobile execution in Appium in any environment should be satisfied in the case of CITS as well. For more information, please refer here,
 [http://appium.io/](http://appium.io/)
 
 
-11)	How does CITS make a BDD feature file executable?
+<br>
+
+**How does CITS make a BDD feature file executable?**
 
 CITS creates compatible test cases by reading the feature files. You can try using this feature, from **Tools>BDD>import feature file** from the CITS IDE.
 
@@ -66,19 +87,26 @@ CITS creates compatible test cases by reading the feature files. You can try usi
 - The step names in the feature file are your corresponding reusable component names 
 - The test data from Example table are also fetched as part of CITS test data sheet
 
-12)	Demo Project is not executing in Chrome when tried in Mac OS. Do we have any prerequisites for the same?
+
+<br>
+
+**Demo Project is not executing in Chrome when tried in Mac OS. Do we have any prerequisites for the same?**
 
 Please download the chrome driver binaries for Mac (since "exe" will not work in Mac environment) and navigate to "Browser configuration” from the CITS IDE in order to remove ".exe" from the chrome driver path.
 
 
-13)	What is the purpose of sub iteration column in CITS test data sheet?
+<br>
+
+**What is the purpose of sub iteration column in CITS test data sheet?**
 
 - Within a test case the various sub iteration counts under iteration 1 represent the different sets of data against which the test case is going to be executed in a loop
 - In general, there can be any number of sub iterations under an iteration and at the same time there can be any number of iterations in a datasheet. Execution of an iteration is nothing but executing all the sub iterations under that iteration.
 - In the design panel only the sub iterations of iteration 1 is executed, the sub iterations of other iterations are considered only from the execution panel.
 
 
-14)	How to map VSTS with automated scripts in CITS tool?
+<br>
+
+**How to map VSTS with automated scripts in CITS tool?**
 
 CITS supports out of the box integration with TFS version 2017. Please ensure the below pre-requisites are met for establishing the integration,
 
@@ -88,7 +116,9 @@ CITS supports out of the box integration with TFS version 2017. Please ensure th
 - In TFS, click the Runs Option to view the various runs and the status of each runs
 
 
-15)	How to use Object Spy?
+<br>
+
+**How to use Object Spy?**
 
 You can either record your flow or use the object spy to add objects to the object repository. The objects, in the repository, can also be added manually in cases when a custom xpath needs to be introduced for the object. Refer steps below to use object spy,
 -	Start object spy from CITS IDE
@@ -97,18 +127,26 @@ You can either record your flow or use the object spy to add objects to the obje
 
 **Note**: If you see the message “error in connection”, please refer "Exception FAQs" question 1.
 
-16)	How to read input from user, at run time?
+
+<br>
+
+**How to read input from user, at run time?**
 
 CITS has provisions to create data sheets for your project, which can be leveraged for parameterizing the test cases. Please use the action "Set" for sending any test data to the web application. Refer here for more information on actions in CITS,
 
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions)
 
 
-17)	Where to get CITS IE toolbar latest version?
+<br>
+
+**Where to get CITS IE toolbar latest version?**
+
 Please use the latest IE Toolbar from
 [https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-IE-Toolbar/releases](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-IE-Toolbar/releases)
 
-18)	Do we have any user manual or help documentation for CITS?
+<br>
+
+**Do we have any user manual or help documentation for CITS?**
 
 CITS help artifact can be accessed from here,
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/)
@@ -116,46 +154,56 @@ CITS help artifact can be accessed from here,
 All web actions available out of the box in CITS are here,
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/actions/webactions)
 
+<br>
 
-19)	How to execute CITS script from command prompt without using the IDE?
+**How to execute CITS script from command prompt without using the IDE?**
 CITS supports command line execution and the syntax for executing a test case or test set from any batch console can be obtained by following the steps,
 
 - Navigate to Test plan (or Test lab) and right click on any test case (or test set)
 - Click on “Get CmdLine Syntax” context menu option in order to copy the command to clipboard 
 - Open command prompt and execute this command from the location where “Run.bat” file is available
 
-20)	How to handle Conditions in script execution?
+
+<br>
+
+**How to handle Conditions in script execution?**
 
 Conditions can be handled in custom methods in CITS. Please refer here for understanding custom methods in CITS,
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/engine](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/engine)
 
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/customfunction](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/customfunction)
 
- 
+ <br>
+
 ### Exception FAQs
 
-1) How to handle the error message - 'Error in connecting App Refer FAQ' obtained while working with the CITS add on?
+**How to handle the error message - 'Error in connecting App Refer FAQ' obtained while working with the CITS add on?**
 
 Please refer the documentation here.
 [https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/addon.html#error-in-connection](https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/addon.html#error-in-connection)
 
-2) How to handle the exception – “Exception in thread "UI:MainUI - java.lang.ExceptionInInitializerError”, triggered while launching CITS IDE?
+
+<br>
+
+**How to handle the exception – “Exception in thread "UI:MainUI - java.lang.ExceptionInInitializerError”, triggered while launching CITS IDE?**
 
 Please ensure that Java 8 is added to system path variable or CITS Run.bat file is hard coded with java 8 before working with the tool.
 
-3) How to handle the exception - "Your connection is not secure” faced during execution in Firefox?
 
-If you are trying to navigate to HTTPS site, a  Firefox capability “acceptInsecureCerts” can help in                                                             overcoming this issue. This can be done by following steps below,
+<br>
+**How to handle the exception - "Your connection is not secure” faced during execution in Firefox?**
+
+If you are trying to navigate to HTTPS site, a  Firefox capability “acceptInsecureCerts” can help in                                    overcoming this issue. This can be done by following steps below,
 
 -	Navigate to “**Browser Configuration - -> Manage Browsers - > Choose Firefox from the dropdown**” from the CITS IDE.
 -	Add the capability “**acceptInsecureCerts**” and a value for the same as “true”. 
 -	Save the settings and execute your test case
 
+<br>
 
-4) How to handle the exception - “protected mode settings are not same for all the browsers”, encountered during script execution in IE browser? 
+**How to handle the exception - “protected mode settings are not same for all the browsers”, encountered during script execution in IE browser? **
 
 For automating in IE (With Selenium) there are some pre-requisites, please refer the below link,
-
 [https://stackoverflow.com/questions/38222259/unable-to-launch-ie-browser-in-selenium-webdriver](https://stackoverflow.com/questions/38222259/unable-to-launch-ie-browser-in-selenium-webdriver)
 
 As suggested in the above links, please ensure two things,
@@ -165,20 +213,22 @@ As suggested in the above links, please ensure two things,
 Please ensure that user has sufficient rights and permission in the network to perform the above two suggestions.
 
 
-5) How to handle the exception - “Could not resolve dependencies” encountered while building the CITS tool?
+<br>
+**How to handle the exception - “Could not resolve dependencies” encountered while building the CITS tool?**
 
-Some jars may not be downloaded with the proxy or maven configuration in your environment. Hence please download them manually and place them in the remote maven repository (m2 folder in your system).
-However, built version of CITS is available at,
+Some jars may not be downloaded with the proxy or maven configuration in your environment. Hence please download them manually and place them in the remote maven repository (m2 folder in your system). However, built version of CITS is available at,
 [https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/releases](https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/releases)
 and can be used in case you have not performed any changes to the source code, instead of building the source code from scratch.
  
+<br>
 
-6) How to handle the exception – “java. lang.ClassNotFoundException” triggered during database testing in CITS?
+**How to handle the exception – “java. lang.ClassNotFoundException” triggered during database testing in CITS?**
 
 Please place the driver jar file under "lib/clib" folder and provide the connection string "jdbc:<Database>://<Host>:<Port>/<Database name>" under database settings. Proceed to test for a successful connection.
 
 
-7)	How to handle the exception “Seems Like the Element [<objectname>] is Not Visible or hidden at the moment” that is triggered during a test case execution?
+<br>
+**How to handle the exception “Seems Like the Element [<objectname>] is Not Visible or hidden at the moment” that is triggered during a test case execution?**
 
 Please check the following,
 - Analyze how the web element are identified during execution (with which property/attribute) from the console log of execution.  
@@ -187,6 +237,7 @@ Please check the following,
 
 
 
+<br>
 
 
 
