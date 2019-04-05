@@ -1,4 +1,4 @@
-## FAQ TO BE ADDED TO GitHub HELP
+## CITS FAQ
 
 1)	Is CITS compatible with latest Chrome browser versions?
 
@@ -95,10 +95,7 @@ You can either record your flow or use the object spy to add objects to the obje
 -	Click on the add on in the browser to get “S” in green
 -	Move to object and perform “Ctrl+ Right click” to add the same to the web object repository. 
 
-**Note**: If you see the message “error in connection”, please refer here ...
-
-
-
+**Note**: If you see the message “error in connection”, please refer "Exception FAQs" question 1.
 
 16)	How to read input from user, at run time?
 
