@@ -17,6 +17,7 @@ pages:
     - Engine: faq/engine.md
     - Custom Methods: faq/customfunction.md   
     - Addon Usage: faq/addon.md
+    - FAQ: faq/FAQ_GitHub.md
         
 - Shortcuts: shortcuts.md
 
