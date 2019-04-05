@@ -1,4 +1,4 @@
-### CITS FAQ
+
 
 **Is CITS compatible with latest Chrome browser versions?**
 
@@ -203,12 +203,12 @@ Please place the driver jar file under "lib/clib" folder and provide the connect
 
 
 <br>
-**How to handle the exception “Seems Like the Element [<objectname>] is Not Visible or hidden at the moment” that is triggered during a test case execution?**
+**How to handle the exception “Seems Like the Element is Not Visible or hidden at the moment” that is triggered during a test case execution?**
 
 Please check the following,
 - Analyze how the web element are identified during execution (with which property/attribute) from the console log of execution.  
 - Check if that property (with which CITS is identifying the element) is a unique match for the element
-- Try adding a “**waitforelementobeclickable**” action before performing the actual operation on the element 
+Try adding a “**waitforelementobeclickable**” action before performing the actual operation on the element 
 
 
 
