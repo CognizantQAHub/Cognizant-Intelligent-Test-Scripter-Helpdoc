@@ -210,6 +210,24 @@ Please check the following,
 - Check if that property (with which CITS is identifying the element) is a unique match for the element
 Try adding a “**waitforelementobeclickable**” action before performing the actual operation on the element 
 
+<br>
+
+**Can CITS be integrated with Applitools?**
+
+CITS is built on top of Selenium webdriver and Selenium can be integrated with Applitools, so is the case with CITS tool as well.
+
+Refer here to integrate Applitools with Selenium webdriver,
+https://applitools.com/tutorials/selenium-java.html
+
+This code can be then introduced as custom methods in CITS, refer here to know more about custom methods in CITS,
+https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/customfunction.html
+
+<br>
+
+**Can CITS read data from external spreadsheets?**
+
+CITS supports only .csv formatted files. External test data in CITS csv format, can be opened in CITS tool directly. Navigate to "Test Data> Import TestData" in the Test Design panel, in order to open an external test data sheet.
+
 
 
 
