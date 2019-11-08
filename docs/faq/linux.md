@@ -3,7 +3,7 @@
 ### How to Install
 
 
- **Make sure you have downloaded and extracted the cognizant-intelligent-test-scripter-*-setup.zip from releases**
+Make sure you have downloaded and extracted the **cognizant-intelligent-test-scripter-*-setup.zip** from releases
 
 
 **Launching UI**
