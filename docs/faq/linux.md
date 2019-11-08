@@ -10,7 +10,7 @@
 
 Open the terminal and navigate to tool location and type **./Run.command** to launch the CITS IDE
 
-**Note:** If Permission denied. Run the below steps
+> **NOTE**: If Permission denied. Run the below steps
 
 > ![](faqImage\permission.png)
 
