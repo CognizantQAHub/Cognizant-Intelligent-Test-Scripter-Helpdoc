@@ -24,6 +24,12 @@ To verify Chrome Browser version in Linux Platform use the below command
 
 Download the compatible driver for the browser , refer the below links to download latest driver
 
+Browser | Latest Driver Download links
+--------|-----------------------------
+Google Chrome | [Chrome Driver!](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+Mozilla Firefox | [Gecko Driver!](https://github.com/mozilla/geckodriver/releases)
+
+Update the driver path in the “Configure Browser” dialog with no .exe Extension
 
 > **NOTE**: A green bulb indicates that the connection between browser extension and the UI is established and is working fine.
 
