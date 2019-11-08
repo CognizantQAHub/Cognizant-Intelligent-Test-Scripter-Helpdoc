@@ -26,10 +26,29 @@ Download the compatible driver for the browser , refer the below links to downlo
 
 Browser | Latest Driver Download links
 --------|-----------------------------
-Google Chrome | [Chrome Driver!](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-Mozilla Firefox | [Gecko Driver!](https://github.com/mozilla/geckodriver/releases)
+Google Chrome | [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+Mozilla Firefox | [Gecko Driver](https://github.com/mozilla/geckodriver/releases)
 
 Update the driver path in the “Configure Browser” dialog with no .exe Extension
+
+> ![](faqImage\browser_cfg.png)
+
+**Browser Version**
+
+To Verify the Chrome driver version in Linux platform. Navigate to the folder where you downloaded chrome driver and perform the below operation
+
+> ![](faqImage\driver_v.png)
+
+> **NOTE**: While execution, If you get the below error for chrome driver 
+
+> **NOTE**: [SEVERE] com.cognizant.cognizantits.engine.core.Task onError: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver java.lang.IllegalStateException: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver
+
+Navigate to the lib/Drivers folder in terminal, perform the below steps to resolve
+
+> ![](faqImage\driver_per.png)
+
+
+
 
 > **NOTE**: A green bulb indicates that the connection between browser extension and the UI is established and is working fine.
 
