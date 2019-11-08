@@ -14,6 +14,16 @@ Open the terminal and navigate to tool location and type **./Run.command** to la
 
 > ![](faqImage\permission.png)
 
+**Driver Configuration**
+
+**Browser Version**
+
+To verify Chrome Browser version in Linux Platform use the below command
+
+> ![](faqImage\chrome_v.png)
+
+Download the compatible driver for the browser , refer the below links to download latest driver
+
 
 > **NOTE**: A green bulb indicates that the connection between browser extension and the UI is established and is working fine.
 
