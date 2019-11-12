@@ -14,7 +14,7 @@ Open the terminal and navigate to tool location and type **./Run.command** to la
 
 > ![](faqImage\permission.png)
 
-**Driver Configuration**
+### Driver Configuration
 
 **Browser Version**
 
@@ -33,21 +33,19 @@ Update the driver path in the “Configure Browser” dialog with no .exe Extens
 
 > ![](faqImage\browser_cfg.png)
 
-**Browser Version**
+**Driver Version**
 
 To Verify the Chrome driver version in Linux platform. Navigate to the folder where you downloaded chrome driver and perform the below operation
 
 > ![](faqImage\driver_v.png)
 
-> **NOTE**: While execution, If you get the below error for chrome driver 
-
-> **NOTE**: [SEVERE] com.cognizant.cognizantits.engine.core.Task onError: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver java.lang.IllegalStateException: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver
+> **NOTE**: While execution, If you get the an error for chrome driver. [SEVERE] com.cognizant.cognizantits.engine.core.Task onError: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver java.lang.IllegalStateException: The driver is not executable: /home/<user>/linuxdemo/linuxdemo/EdevCare/lib/Drivers/chromedriver
 
 Navigate to the lib/Drivers folder in terminal, perform the below steps to resolve
 
 > ![](faqImage\driver_per.png)
 
-**Command Line Syntax**
+### Command Line Syntax
 
 To trigger test set execution through command line in Linux Platform perform the below steps
 
@@ -63,11 +61,11 @@ Manually modify the above syntax like below for Linux Platform
 
 > ![](faqImage\run_cmd.png)
 
-**Grid Node Configuration**
+### Grid Node Configuration
 
-To start selenium node, Navigate to the GridNode folder and open terminal and type **./init.command**
+To start selenium grid node, Navigate to the GridNode folder and open terminal and type **./init.command**
 
 > **NOTE**: If Permission denied. Run the below steps
 
-> **NOTE**: chmod 777 init.command
+chmod 777 init.command
 
