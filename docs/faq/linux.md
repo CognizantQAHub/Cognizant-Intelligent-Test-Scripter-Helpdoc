@@ -63,7 +63,7 @@ Manually modify the above syntax like below for Linux Platform
 
 > ![](faqImage\run_cmd.png)
 
-**Command Line Syntax**
+**Grid Node Configuration**
 
 To start selenium node, Navigate to the GridNode folder and open terminal and type **./init.command**
 
