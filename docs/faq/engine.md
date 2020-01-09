@@ -2,6 +2,8 @@
 
 > Cognizant Intelligent Test Scripter lets users view the overall engine structure available in the installation location. This is where the methods corresponding to all the available actions are defined and this folder can be imported into any IDE that supports Java. This gives users the flexibility to alter the code of the existing actions or add additional custom actions. After making modifications to the engine, the users can compile the JAR file and add it to the UI.
 
+> **Note:** Please note that while using **CITS 1.4, Java 11** (for **CITS 1.3, Java 9**) is mapped to Eclipse IDE's workspace settings in order to enable a seamless import of **engine and custom method project**
+
 ### **How to open the Engine in Eclipse?**
 
 - Open **Eclipse IDE**
