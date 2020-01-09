@@ -76,7 +76,9 @@ You can download the Latest version of Cognizant Intelligent Test Scripter [from
  
 #### Software Requirements
 
- * Latest Java 1.8
+ * CITS 1.4 supports only Java 11
+ * CITS 1.3 supports only Java 1.9
+ * CITS 1.2 and older versions supports only Java 1.8 latest build
  * IDE supporting Java Development (Eclipse, Netbeans, etc.)
  
 #### Devices(For mobile execution)
