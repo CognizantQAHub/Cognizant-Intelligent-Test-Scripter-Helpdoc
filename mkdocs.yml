@@ -19,6 +19,7 @@ pages:
     - Addon Usage: faq/addon.md
     - Linux: faq/linux.md
     - FAQ: faq/FAQ_GitHub.md
+    - Migration: faq/migration.md
         
 - Shortcuts: shortcuts.md
 
