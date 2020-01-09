@@ -29,12 +29,12 @@ CITS 1.4 Supports only Java 11. Install Java 11 and configure the Java bin folde
 
 The below error would occur when configuring CITS 1.3 Engine code, if Java 11 is not configured in Eclipse.
 
-![](.\faqImage\migrationguide_images\one.jpg)
+![](faqImage\migrationguide_images\one.jpg)
 
 
 To mitigate the Java Error, Add Java 11 in Eclipse > Installed JREs Window.
 
-![](.\faqImage\migrationguide_images\two.jpg)
+![](faqImage\migrationguide_images\two.jpg)
 
 
 
@@ -67,7 +67,7 @@ From CITS 1.4 onwards, we had reduced the list of browser capabilities. Therefor
 
 
 
-![](.\faqImage\migrationguide_images\three.jpg)
+![](faqImage\migrationguide_images\three.jpg)
 
 
 
@@ -113,11 +113,11 @@ Refer the below table for Custom Method Migration.
 
 Launch the CITS 1.4 tool using Run.bat and open the CITS 1.1 (or) 1.2 project. Refer the below screenshot
 
-![](.\faqImage\migrationguide_images\four.jpg)
+![](faqImage\migrationguide_images\four.jpg)
 
 CITS 1.4 will automatically migrate CITS old version projects and make it 1.4 compatible project. Success notification shown in right corner of the tool. Check the tool logs (if there are any migration errors).
 
-![](.\faqImage\migrationguide_images\five.jpg)
+![](faqImage\migrationguide_images\five.jpg)
 
 The following features gets automatically migrated.
 
@@ -172,7 +172,7 @@ These servers automatically gets added while Migration.
 
 Excel Reporting feature in CITS 1.4 will start showing in old version of CITS Projects.
 
-![](.\faqImage\migrationguide_images\six.jpg)
+![](faqImage\migrationguide_images\six.jpg)
 
 
 ## 4.	Migration Checklist
