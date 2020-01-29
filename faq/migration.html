@@ -1,0 +1,838 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Documentation for Cognizant Intelligent Test Scripter">
+      
+      
+        <link rel="canonical" href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/faq/migration.html">
+      
+      
+        <meta name="author" content="Cognizant Intelligent Test Scripter Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>Migration - Cognizant Intelligent Test Scripter</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../fix/fix.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-101145118-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#cognizant-intelligent-test-scripter-migration-guide" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc" title="Cognizant Intelligent Test Scripter" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Cognizant Intelligent Test Scripter
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Migration
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    CITS
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc" title="Cognizant Intelligent Test Scripter" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Cognizant Intelligent Test Scripter
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    CITS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../index.html" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Actions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Actions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../actions/webactions.html" title="Web" class="md-nav__link">
+      Web
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Usage
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Usage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="engine.html" title="Engine" class="md-nav__link">
+      Engine
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="customfunction.html" title="Custom Methods" class="md-nav__link">
+      Custom Methods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="addon.html" title="Addon Usage" class="md-nav__link">
+      Addon Usage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="linux.html" title="Linux" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="FAQ_GitHub.html" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Migration
+      </label>
+    
+    <a href="migration.html" title="Migration" class="md-nav__link md-nav__link--active">
+      Migration
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisites-mandatory" class="md-nav__link">
+    Pre-requisites** (Mandatory)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-and-eclipse-configuration" class="md-nav__link">
+    Java and Eclipse Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-steps" class="md-nav__link">
+    Migration Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-migration" class="md-nav__link">
+    Automatic Migration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-checklist" class="md-nav__link">
+    Migration Checklist
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../shortcuts.html" title="Shortcuts" class="md-nav__link">
+      Shortcuts
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisites-mandatory" class="md-nav__link">
+    Pre-requisites** (Mandatory)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-and-eclipse-configuration" class="md-nav__link">
+    Java and Eclipse Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-steps" class="md-nav__link">
+    Migration Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-migration" class="md-nav__link">
+    Automatic Migration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-checklist" class="md-nav__link">
+    Migration Checklist
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc/edit/master/docs/faq/migration.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="cognizant-intelligent-test-scripter-migration-guide">Cognizant Intelligent Test Scripter Migration guide<a class="headerlink" href="#cognizant-intelligent-test-scripter-migration-guide" title="Permanent link">#</a></h1>
+<blockquote>
+<p><strong>Audience</strong> : The document intended to CITS 1.1 and 1.2 Users</p>
+</blockquote>
+<h3 id="pre-requisites-mandatory">Pre-requisites** (Mandatory)<a class="headerlink" href="#pre-requisites-mandatory" title="Permanent link">#</a></h3>
+<ul>
+<li>Backup the CITS 1.1 (or) 1.2 Project folder and Custom Method Project/Jars to avoid data loss</li>
+<li>Ensure the project to be migrated, is a successfully working in CITS 1.1/1.2</li>
+<li>Download CITS 1.4 Zip from GitHub and Unzip</li>
+<li>It is recommended to have project from older version of CITS into CITS 1.4/Projects folder</li>
+<li>Install Java 11 </li>
+<li>Use Eclipse IDE for Java Developers version 4.12.0</li>
+</ul>
+<h3 id="java-and-eclipse-configuration">Java and Eclipse Configuration<a class="headerlink" href="#java-and-eclipse-configuration" title="Permanent link">#</a></h3>
+<p><strong>Java</strong></p>
+<p>CITS 1.4 Supports only Java 11. Install Java 11 and configure the Java bin folder in System path.</p>
+<p><strong>Note</strong>: CITS 1.4 is not backward compatible with Java 8</p>
+<p><strong>Eclipse Configuration</strong></p>
+<p>The below error would occur when configuring CITS 1.4 Engine code, if Java 11 is not configured in Eclipse.</p>
+<p><img alt="" src="faqImage\migrationguide_images\one.jpg" /></p>
+<p>To mitigate the Java Error, Add Java 11 in Eclipse &gt; Installed JREs Window.</p>
+<p><img alt="" src="faqImage\migrationguide_images\two.jpg" /></p>
+<h3 id="migration-steps">Migration Steps<a class="headerlink" href="#migration-steps" title="Permanent link">#</a></h3>
+<p><strong>Manual Steps</strong></p>
+<p><strong>Cognizant Fastest Customization:</strong></p>
+<p>As part of Cognizant Fastest Customization, user has to enter following list of capabilities in CITS 1.1/1.2. </p>
+<ul>
+<li>Username</li>
+<li>Password</li>
+<li>seleniumVersion</li>
+<li>Packagename</li>
+<li>triggerId</li>
+<li>executionType</li>
+<li>consoleSessionId</li>
+</ul>
+<p>From CITS 1.4 onwards, we had reduced the list of browser capabilities. Therefore, retain the following capabilities from Driver Settings dialog. Refer the below screenshot.</p>
+<ul>
+<li>Username</li>
+<li>Password</li>
+<li>servicerequestid</li>
+<li>seleniumversion</li>
+</ul>
+<p><img alt="" src="faqImage\migrationguide_images\three.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th>CITS 1.1 and 1.2</th>
+<th>CITS 1.4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username, password</td>
+<td>username</td>
+</tr>
+<tr>
+<td>packagename, servicerequestid</td>
+<td>password</td>
+</tr>
+<tr>
+<td>triggered,seleniumVersion</td>
+<td>servicerequestid</td>
+</tr>
+<tr>
+<td>executionType,consoleSessionId</td>
+<td>seleniumVersion</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exploratory Testing</strong></p>
+<p>In CITS 1.1 and 1.2, <strong>Exploratory Testing &gt; JIRA Configurations (Username and Password)</strong> were encoded.If user has JIRA, configuration they recommended to configure it newly in CITS 1.4</p>
+<p><strong>Custom Method Migration</strong></p>
+<p>The Custom Method Project / Engine code recommended compiling and exporting as Jar again. </p>
+<p>Refer the below table for Custom Method Migration.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Custom Action</strong></th>
+<th><strong>Migration Steps</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Custom Actions present in Custom Method Project</td>
+<td>•    Create Custom Method Project in CITS 1.4 and copy the code from old CITS CM Project</td>
+</tr>
+<tr>
+<td>•   Export it as Jar and verify in 1.4 IDE</td>
+<td></td>
+</tr>
+<tr>
+<td>Custom Actions present in Engine Project</td>
+<td>• Take a backup of old Engine Jar from lib folder</td>
+</tr>
+<tr>
+<td>•   Copy the source from old Engine project to CITS 1.4 Engine Project</td>
+<td></td>
+</tr>
+<tr>
+<td>•   Export it as Engine Jar and verify in 1.4 IDE</td>
+<td></td>
+</tr>
+<tr>
+<td>Custom Actions using <strong>Base64</strong> encoding and decoding</td>
+<td>Please change it to Encryption logic</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note</strong>: If Custom Methods have compile error because of new dependency jars, change the implementation of the method to match with current version.</p>
+</blockquote>
+<h3 id="automatic-migration">Automatic Migration<a class="headerlink" href="#automatic-migration" title="Permanent link">#</a></h3>
+<p><strong>Tool Launch</strong></p>
+<p>Launch the CITS 1.4 tool using Run.bat and open the CITS 1.1 (or) 1.2 project. Refer the below screenshot</p>
+<p><img alt="" src="faqImage\migrationguide_images\four.jpg" /></p>
+<p>CITS 1.4 will automatically migrate CITS old version projects and make it 1.4 compatible project. Success notification shown in right corner of the tool. Check the tool logs (if there are any migration errors).</p>
+<p><img alt="" src="faqImage\migrationguide_images\five.jpg" /></p>
+<p>The following features gets automatically migrated.</p>
+<p><strong>Encryption</strong></p>
+<p>In Old version of CITS, we used Base64 Encoding. From CITS 1.4, the sensitive data(s) encrypted using AES 256 Algorithm. Therefore, the Base64 values in the following CITS 1.1 (or) 1.2 feature will be migrated to encryption values.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Feature (If Base64 data present)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Test Management Configuration</td>
+</tr>
+<tr>
+<td>Test Data Cell/Test Step (Test Data Column)</td>
+</tr>
+<tr>
+<td>Driver Settings</td>
+</tr>
+</tbody>
+</table>
+<p>Following CITS Actions using Base 64 values will be migrated to Encryption in CITS 1.4</p>
+<table>
+<thead>
+<tr>
+<th><strong>Actions</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>setEncrypted</td>
+</tr>
+<tr>
+<td>setEncryptedByJS</td>
+</tr>
+<tr>
+<td>imgSetEncrypted</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mail Settings</strong></p>
+<p>In CITS 1.4, we have introduced new property “<strong>mail.smtp.starttls.required</strong>” in mail configuration, which is used to enforce the usage of TLS (For Encrypting the SMTP traffic) in mail server. </p>
+<p>The below property is automatically added in CITS 1.4 Migration.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mail.smtp.starttls.required</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note</strong>: The Connection fails if mail server does not have TLS Configuration</p>
+</blockquote>
+<p><strong>Test Management</strong></p>
+<p>In CITS 1.4, we have added Test Management Support for the below list of servers</p>
+<ul>
+<li>qTest</li>
+<li>JIRA On Cloud</li>
+<li>TestRail</li>
+</ul>
+<p>These servers automatically gets added while Migration.</p>
+<p><strong>Excel Reporting</strong></p>
+<p>Excel Reporting feature in CITS 1.4 will start showing in old version of CITS Projects.</p>
+<p><img alt="" src="faqImage\migrationguide_images\six.jpg" /></p>
+<h3 id="migration-checklist">Migration Checklist<a class="headerlink" href="#migration-checklist" title="Permanent link">#</a></h3>
+<ul>
+<li>Check the Tool log file to ensure successful migration</li>
+<li>In Migrated Project , verify “<strong>version=1.4</strong>” sentence in “<strong>.project</strong>” file</li>
+<li>Verify the list of features in <strong>Automatic Migration</strong> are migrated successfully</li>
+<li>Check if Test Case / Reusable with Encrypted Actions execution is successful</li>
+<li>Perform Dry run from Migrated Project</li>
+<li>If Migration is not successful refer the Tool log for which feature the migration is broken</li>
+<li>
+<p>If an error occurs, while converting Encoding &gt; Encryption, in <strong>Test data/Driver configuration/ Encrypted Action</strong>. perform below steps,</p>
+<ul>
+<li>Delete an Encoded value in IDE (ends with “<strong>Enc</strong>”)</li>
+<li>Enter the correct value</li>
+<li>Right click and Choose an “<strong>Encrypt</strong>” option</li>
+</ul>
+</li>
+<li>
+<p>If an error occurs, while converting Encoding &gt; Encryption, in Test Management Configuration and TM Settings</p>
+<ul>
+<li>Delete an Encoded value in IDE (Starts with “<strong>TMENC</strong>:”)</li>
+<li>Enter the correct value</li>
+<li>Right click and Choose an “<strong>Encrypt</strong>” option</li>
+</ul>
+</li>
+<li>
+<p>After migration ensure that project with the newly encrypted data (test data, password fields in test management tabs and similar data) are checked for its successful execution.</p>
+</li>
+</ul>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="FAQ_GitHub.html" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                FAQ
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../shortcuts.html" title="Shortcuts" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Shortcuts
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2014 - 2017 . Maintained by the <a href="/about/release-notes/#maintenance-team">Cognizant Intelligent Test Scripter Team</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,785 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Documentation for Cognizant Intelligent Test Scripter">
+      
+      
+        <link rel="canonical" href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc/index.html">
+      
+      
+        <meta name="author" content="Cognizant Intelligent Test Scripter Team">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>Cognizant Intelligent Test Scripter</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="fix/fix.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-101145118-1", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#cognizant-intelligent-test-scripter" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc" title="Cognizant Intelligent Test Scripter" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Cognizant Intelligent Test Scripter
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Home
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    CITS
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://cognizantqahub.github.io/Cognizant-Intelligent-Test-Scripter-Helpdoc" title="Cognizant Intelligent Test Scripter" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Cognizant Intelligent Test Scripter
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    CITS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+      </label>
+    
+    <a href="index.html" title="Home" class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-requirements" class="md-nav__link">
+    Hardware Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-requirements" class="md-nav__link">
+    Software Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devicesfor-mobile-execution" class="md-nav__link">
+    Devices(For mobile execution)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported-browsers" class="md-nav__link">
+    Supported Browsers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contact" class="md-nav__link">
+    Contact
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Actions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Actions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="actions/webactions.html" title="Web" class="md-nav__link">
+      Web
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Usage
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Usage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/engine.html" title="Engine" class="md-nav__link">
+      Engine
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/customfunction.html" title="Custom Methods" class="md-nav__link">
+      Custom Methods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/addon.html" title="Addon Usage" class="md-nav__link">
+      Addon Usage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/linux.html" title="Linux" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/FAQ_GitHub.html" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/migration.html" title="Migration" class="md-nav__link">
+      Migration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="shortcuts.html" title="Shortcuts" class="md-nav__link">
+      Shortcuts
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-requirements" class="md-nav__link">
+    Hardware Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-requirements" class="md-nav__link">
+    Software Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devicesfor-mobile-execution" class="md-nav__link">
+    Devices(For mobile execution)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported-browsers" class="md-nav__link">
+    Supported Browsers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contact" class="md-nav__link">
+    Contact
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="cognizant-intelligent-test-scripter"><strong>Cognizant Intelligent Test Scripter</strong><a class="headerlink" href="#cognizant-intelligent-test-scripter" title="Permanent link">#</a></h1>
+<p><br></p>
+<blockquote>
+<p><strong>Cognizant Intelligent Test Scripter</strong> is an open-source script-less test automation solution that provides a unified interface for all the <strong>day-to-day</strong> test automation activities such as test design, test development, test execution, reporting and maintenance.</p>
+</blockquote>
+<p><br></p>
+<h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p>Web automation with multi browser support using <a href="http://docs.seleniumhq.org/">Selenium</a></p>
+</li>
+<li>
+<p>Image based automation using <a href="http://www.sikuli.org/">Sikuli</a></p>
+</li>
+<li>
+<p>Reusable components for <strong>reusing scripts</strong></p>
+</li>
+<li>
+<p><strong>Test-data parameterisation  and environment-based dynamic test-data</strong> support </p>
+</li>
+<li>
+<p><strong>Object Repository</strong> supporting Object Group in Web and Mobile</p>
+</li>
+<li>
+<p><strong>Exploratory Testing</strong> that records flow, takes screen shots, uploads bugs and converts recorded steps into test cases</p>
+</li>
+<li>
+<p>Execution in cloud platforms like <a href="https://saucelabs.com/">SauceLabs</a>, <a href="https://www.browserstack.com/">BrowserStack</a>, <a href="https://www.perfectomobile.com/">Perfecto</a></p>
+</li>
+<li>
+<p><strong>Layout Testing</strong> using <a href="http://galenframework.com/">Galen framework</a></p>
+</li>
+<li>
+<p><strong>Accessibility Testing</strong> using <a href="https://www.deque.com/products/axe-core#WhatisaXe">aXe</a></p>
+</li>
+<li>
+<p>Reusable / iteration / browser level HTML(json) report with <strong>Searching, Sorting, Grouping, Themes, Templates, Galen Image comparison</strong> features</p>
+</li>
+<li>
+<p>Validation, Re factoring , Search in all components(Testcase/Reusable/TestData/TestSet/OR)</p>
+</li>
+<li>
+<p><strong>Selenium grid</strong> support and  <strong>GridNode UI</strong> for creating grid clients</p>
+</li>
+<li>
+<p><a href="http://appium.io/">Appium</a> Integration for Mobile web Automation</p>
+</li>
+<li>
+<p>Object Spy For MobileNative Apps[IOS and Android]  </p>
+</li>
+<li>
+<p>Test Management module(QC , JIRA-Zephyr , TFS)</p>
+</li>
+<li>
+<p>Send Reports in mail after Execution</p>
+</li>
+<li>
+<p>Execute failed testcases in a test set automatically after a run</p>
+</li>
+<li>
+<p>Custom methods,externalize the custom actions/methods as separate project</p>
+</li>
+<li>
+<p>CLI to support multiple switches and command line variables</p>
+</li>
+<li>
+<p>Utility(Feature Editor) to manage BDD features, support Feature file creation, import, export feature files</p>
+</li>
+<li>
+<p><strong>WebPage performance metrics</strong> - Page and Resource timings report, Har Compare and  Har Compare report ,CLI to get performance result/report for an execution</p>
+</li>
+<li>
+<p>Angular support using <a href="https://github.com/paul-hammant/ngWebDriver">ng-webdriver(protractor)</a></p>
+</li>
+</ul>
+<h2 id="download">Download<a class="headerlink" href="#download" title="Permanent link">#</a></h2>
+<p>You can download the Latest version of Cognizant Intelligent Test Scripter <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/releases/latest">from the Releases</a>.  After extracting the zip, follow the steps from <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter/blob/master/Resources/Installation.md">Installation.md</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cognizant Intelligent Test Scripter is distributed under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> and the sources are available on <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter">GitHub</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This website is also posted on <a href="https://github.com/CognizantQAHub/Cognizant-Intelligent-Test-Scripter-Helpdoc">GitHub</a> as open-source so that anyone can help improve the documentation.</p>
+</div>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">#</a></h3>
+<h4 id="hardware-requirements">Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Permanent link">#</a></h4>
+<ul>
+<li>RAM: 2GB preferably 4 GB</li>
+<li>Processor: Pentium 4 or faster</li>
+<li>Operating System: Windows (32/64 bit)/ MAC OS/Linux</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cognizant Intelligent Test Scripter is built on Java. Hence it will work on any desktop OS which supports Java.</p>
+</div>
+<h4 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permanent link">#</a></h4>
+<ul>
+<li>CITS 1.4 supports only Java 11</li>
+<li>CITS 1.3 supports only Java 1.9</li>
+<li>CITS 1.2 and older versions supports only Java 1.8 latest build</li>
+<li>IDE supporting Java Development (Eclipse, Netbeans, etc.)</li>
+</ul>
+<h4 id="devicesfor-mobile-execution">Devices(For mobile execution)<a class="headerlink" href="#devicesfor-mobile-execution" title="Permanent link">#</a></h4>
+<ul>
+<li>All Android based devices</li>
+<li>All iOS based devices</li>
+</ul>
+<h4 id="supported-browsers">Supported Browsers<a class="headerlink" href="#supported-browsers" title="Permanent link">#</a></h4>
+<p>Selenium supported browsers are covered by default. For more information, <a href="http://docs.seleniumhq.org/about/platforms.jsp#browsers">refer the link</a>.</p>
+<h2 id="contact">Contact<a class="headerlink" href="#contact" title="Permanent link">#</a></h2>
+<p>If you have any queries on Cognizant Intelligent Test Scripter, please post your questions on <a href="https://groups.google.com/forum/#!forum/cognizant-intelligent-test-scripter">Cognizant ITS Google Group</a>.</p>
+<p>To ask specific questions on project development, to discuss future improvements or for any other technical detail, please join the <a href="https://gitter.im/Cognizant-Intelligent-Test-Scripter">Cognizant ITS chat on Gitter</a>.</p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="actions/webactions.html" title="Web" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Web
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2014 - 2017 . Maintained by the <a href="/about/release-notes/#maintenance-team">Cognizant Intelligent Test Scripter Team</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
