@@ -27,7 +27,7 @@ CITS 1.4 Supports only Java 11. Install Java 11 and configure the Java bin folde
 
 **Eclipse Configuration**
 
-The below error would occur when configuring CITS 1.3 Engine code, if Java 11 is not configured in Eclipse.
+The below error would occur when configuring CITS 1.4 Engine code, if Java 11 is not configured in Eclipse.
 
 ![](faqImage\migrationguide_images\one.jpg)
 
